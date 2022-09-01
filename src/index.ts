@@ -9,7 +9,7 @@
 function random(
 	min: number,
 	max: number,
-	roundFunction: RoundFunction = 'round'
+	roundFunction: 'round' | 'ceil' | 'floor' | 'none' = 'round'
 ) {
 	const randNum = min + Math.random() * (max - min);
 	switch (roundFunction) {
