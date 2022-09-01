@@ -1,6 +1,6 @@
 {
   "name": "salviascript",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Some small utility functions",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
